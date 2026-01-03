@@ -1,30 +1,15 @@
-# AWS IoT Device Simulator (MQTT + TLS)
+# AWS IoT Device Simulator (Python)
 
-A simple **Python-based AWS IoT device simulator** that connects securely to **AWS IoT Core** using **X.509 certificates**, publishes telemetry data, and listens for cloud-to-device commands.
+A simple Python-based simulator that mimics an IoT device connecting to **AWS IoT Core** using **MQTT over TLS (X.509 certificates)**.
 
-This project demonstrates a **real-world IoT device lifecycle** including telemetry, device shadow updates, and command handling — suitable for **internships, resumes, and demos**.
+This project was built to demonstrate:
+- Secure device-to-cloud connectivity
+- Telemetry publishing
+- Cloud-to-device command handling
 
 ---
 
 ## Features
-
-- Secure MQTT connection to **AWS IoT Core** using TLS
-- Publishes simulated telemetry data
-- Subscribes to device command topic
-- Works with AWS IoT Device Shadow (desired → delta)
-- Lightweight and easy to run locally
-
----
-
-## Project Structure
-
-```text
-iot-device-simulator/
-├── device_sim.py          # Main device simulator
-├── requirements.txt       # Python dependencies
-├── .gitignore             # Git ignore rules
-├── AmazonRootCA1.pem      # Root CA (not committed)
-├── device.pem.crt         # Device certificate (not committed)
-├── private.pem.key        # Private key (not committed)
-└── venv/                  # Python virtual environment
-
+- Connects to AWS IoT Core using TLS certificates
+- Publishes simulated telemetry data (temperature, speed, battery)
+- Subscribes to command topic:

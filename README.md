@@ -38,4 +38,3 @@ iot-device-simulator/
 This project can be used as a reference for:
 - AWS IoT Core MQTT connectivity
 - Secure IoT device simulation
-- Internship and academic demonstrations of IoT pipelines

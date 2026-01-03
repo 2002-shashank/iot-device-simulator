@@ -16,6 +16,7 @@ This project demonstrates:
 iot-device-simulator/
 
 ├── device_sim.py # Main simulator script
+
 ├── requirements.txt # Python dependencies
 
 ├── .gitignore # Git ignore rules

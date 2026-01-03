@@ -13,3 +13,8 @@ This project was built to demonstrate:
 - Connects to AWS IoT Core using TLS certificates
 - Publishes simulated telemetry data (temperature, speed, battery)
 - Subscribes to command topic:
+iot-device-simulator/
+├── device_sim.py # Main simulator script
+├── requirements.txt # Python dependencies
+├── .gitignore # Git ignore rules
+└── README.md

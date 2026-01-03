@@ -15,8 +15,11 @@ This project demonstrates:
 ## Project Structure
 iot-device-simulator/
 ├── device_sim.py # Main simulator script
+
 ├── requirements.txt # Python dependencies
+
 ├── .gitignore # Git ignore rules
+
 └── README.md # Project documentation
 
 
